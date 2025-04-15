@@ -1,126 +1,77 @@
 [[rcodesign]]
 arch = "aarch64"
-git-tree-sha1 = "018b31763eac4e800768165dd4a64db2bd72acdf"
+git-tree-sha1 = "b3c6105b0f3ec880d0cce285e7182c1727d154f4"
 os = "macos"
 
     [[rcodesign.download]]
-    sha256 = "8c418b5365723a88531f924cfd3cdf6420009cf60ef7e877f2ed407e9cb7bc88"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "ba3fa10b5b001bddc9c5997eff074f1a49af3eaac97f42a810fceddd8c44ab07"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.aarch64-apple-darwin.tar.gz"
 [[rcodesign]]
 arch = "aarch64"
-git-tree-sha1 = "c10b9db5cb9551ff2cf15f06878e4d44ad12443e"
+git-tree-sha1 = "4b9c60b17c991959aca0f54b48f382fdbce19027"
 libc = "glibc"
 os = "linux"
 
     [[rcodesign.download]]
-    sha256 = "c527d3a342a8df51c14798dd95cbab976fabc651ad4beac321f79c03f1656d86"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "e76988f52dd30638aab57c9d5c066c24b2d385637ae9327d4c673a985d13384a"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.aarch64-linux-gnu.tar.gz"
 [[rcodesign]]
 arch = "aarch64"
-git-tree-sha1 = "4056d7a511fa766a265d33e1a9df636465824840"
+git-tree-sha1 = "f10dd9d961dad76c743bf5abcb1947a32302ab86"
 libc = "musl"
 os = "linux"
 
     [[rcodesign.download]]
-    sha256 = "5f13770fc740c0cab59151f14113eff377277f194ce3b78485221743be353d28"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.aarch64-linux-musl.tar.gz"
+    sha256 = "0a5325cc6895296b8ed4be3728709444e9bb4b2537ce2e98e16ef393ed0f33bd"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.aarch64-linux-musl.tar.gz"
 [[rcodesign]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "89160dc225c644a1a5bebb5faa889e37495774b1"
+arch = "powerpc64le"
+git-tree-sha1 = "12f3030c542d671460babb636bef276b3fcfa908"
 libc = "glibc"
 os = "linux"
 
     [[rcodesign.download]]
-    sha256 = "6063ea250c6621f8bce5d86842fad5c4094d42519eaa1f26739906b2ee132484"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.armv6l-linux-gnueabihf.tar.gz"
-[[rcodesign]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "fc6a724377a7b1569452f2841cffb8a975d80709"
-libc = "musl"
-os = "linux"
-
-    [[rcodesign.download]]
-    sha256 = "6859563fab904137c6d44cad168cd1e82d9b6422dbdb6e98faa9245aed91a275"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.armv6l-linux-musleabihf.tar.gz"
-[[rcodesign]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "4d2d19dec28e3ec0c9f392f70fb7f02bdaf2d4cb"
-libc = "glibc"
-os = "linux"
-
-    [[rcodesign.download]]
-    sha256 = "3a66b89f632a46970dfdd1205a70bd8b4c846faa69340260ff4d88e72ea4bd81"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.armv7l-linux-gnueabihf.tar.gz"
-[[rcodesign]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "c3b0310db7ef67f2d5baa41a895fd583ab2d609f"
-libc = "musl"
-os = "linux"
-
-    [[rcodesign.download]]
-    sha256 = "fadcbbbc07945c494ceb6c78c8574bf03e382abbf5d04b6bf2e7e796113b0980"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.armv7l-linux-musleabihf.tar.gz"
-[[rcodesign]]
-arch = "i686"
-git-tree-sha1 = "0edda9072efa410da87f5ab53940375a81071bf8"
-libc = "glibc"
-os = "linux"
-
-    [[rcodesign.download]]
-    sha256 = "d1b4974a0ab802c9dab399cc29b65a4b02168216664cc4d376ff0132b6739cfb"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.i686-linux-gnu.tar.gz"
-[[rcodesign]]
-arch = "i686"
-git-tree-sha1 = "7b021f77a483c5fe8231c1a929eef0332c745e25"
-libc = "musl"
-os = "linux"
-
-    [[rcodesign.download]]
-    sha256 = "30a3eaf58ecb428863af86ded7d47fa4c0cfbf8ae3f752f06329ab859dd22761"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.i686-linux-musl.tar.gz"
+    sha256 = "199beee9ed280fca83986612845a08ea9797f33ab679fa9bddfdce56d6465da3"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.powerpc64le-linux-gnu.tar.gz"
 [[rcodesign]]
 arch = "x86_64"
-git-tree-sha1 = "fd0d8355a95175ad506ec256477b050b1bdaccde"
+git-tree-sha1 = "5994c949b6e8f3b9bb32e474db02ed7e905c4cc3"
 os = "macos"
 
     [[rcodesign.download]]
-    sha256 = "87d39c77340b525d1b681d1b308f65cae2460cdb57771d8664d50f827572fa78"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "73dcc9c9d806e9664be4a364d247831dd42441c99b5d08069be15b65a77e00e3"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.x86_64-apple-darwin.tar.gz"
 [[rcodesign]]
 arch = "x86_64"
-git-tree-sha1 = "56a898a0c549d689028fe4ad043e6d96c382e1ec"
+git-tree-sha1 = "fa990d1ed5a1a1d0b5c41b7eb931ed8cf388591c"
 libc = "glibc"
 os = "linux"
 
     [[rcodesign.download]]
-    sha256 = "c88d213844d6df2996fca17f227fc40c964623d6b966456d4d05867258fcfbb2"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "3a76307bb3242a0a70111e4a75819ebaaa2f835ea4ae57b1e5664cf146af1b91"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.x86_64-linux-gnu.tar.gz"
 [[rcodesign]]
 arch = "x86_64"
-git-tree-sha1 = "afea356180c300aa9bfc83f1283a9a48eafaeb92"
+git-tree-sha1 = "352f096b07866ed848dd163773dfbe249837a0a6"
 libc = "musl"
 os = "linux"
 
     [[rcodesign.download]]
-    sha256 = "409c9265ca9c256c80a01b27ade657635bf5f1989e03f55e1b03aa3fca9fc44b"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.x86_64-linux-musl.tar.gz"
+    sha256 = "da25666bd5ea85863bac62e6aca72939df8bbbcee5fab6f07d29b8ead77dfc5e"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.x86_64-linux-musl.tar.gz"
 [[rcodesign]]
 arch = "x86_64"
-git-tree-sha1 = "5f34131d8578baf53ad08ee494f69d0c1974c2b3"
+git-tree-sha1 = "2594d27c7c0f2e15805947c082fa79216e338a1d"
 os = "freebsd"
 
     [[rcodesign.download]]
-    sha256 = "9d458c65f18ec92f9e306539c36719e29a83449126fefacc333e575f01beba74"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "f32d8447db3a33707663c600f5d9cefb38ff5c05bd35b753fc0a36a20a7bdb37"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.x86_64-unknown-freebsd.tar.gz"
 [[rcodesign]]
 arch = "x86_64"
-git-tree-sha1 = "bbf8454567977d92ab80c3bd8897733f0f8311f1"
+git-tree-sha1 = "e355607b730eba2fe3982efc5f153b77993c92b8"
 os = "windows"
 
     [[rcodesign.download]]
-    sha256 = "3e6b32a3ae99823e58bdd092419d1471461ced12956e0d378e51ae9d38f2434f"
-    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.17.0+0/rcodesign.v0.17.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "c7e8d5c9a5ba5c3822bd8eea24e34ff2ad76b8c7ae6aaf18a7682901b8d97d14"
+    url = "https://github.com/JuliaBinaryWrappers/rcodesign_jll.jl/releases/download/rcodesign-v0.29.0+0/rcodesign.v0.29.0.x86_64-w64-mingw32.tar.gz"
